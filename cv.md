@@ -39,3 +39,11 @@ function fizzbuzz(n)
   return ar;
 }
 ```
+
+## Languages
+
+* Russian: native
+
+  ### English: A2.
+
+    - I try to learn English. I use application in smartphone
