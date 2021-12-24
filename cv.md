@@ -19,7 +19,9 @@ That is why I`m here. My goal is to gain knowledge in the field of front-end dev
 
 ## Work experience:
   - Nothing yet…
+
 ## Education and courses:
+
 1. 7 days marathon, GoIT
 2. Fructcode courses, HTML, CSS, Bootstrap
 3. Udemy, JavaScript + React. (reached advanced JS)
