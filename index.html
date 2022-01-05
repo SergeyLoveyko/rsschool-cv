@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>rsschool-cv-html</title>
+  </head>
+  <body>
+    <div class="container-center">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li><a class="menu__link" href="#skills">Skills</a></li>
+                <li><a class="menu__link" href="#project">Project</a></li>
+                <li><a class="menu__link" href="#languages">Languages</a></li>
+                <li><a class="menu__link" href="#education">Education</a></li>
+                <li>
+                  <a class="menu__link" href="#code-example">Code Example</a>
+                </li>
+                <li><a class="menu__link" href="#contacts">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="left-column">
+          <section class="user">
+            <img src="./assets/img/Portrait.jpg" alt="Portrait" width="204" height="204">
+            <h1>Loveyko Sergey</h1>
+            <h2>Junior Frontend Developer</h2>
+          </section>
+          <section id="contacts" class="contacts">
+            <h3>CONTACTS</h3>
+            <div class="popo">
+              <ul>
+                <li>
+                    <img class="filter-orange" src="./assets/icons/phone.svg" alt="Phone Icon" width="30" height="30">
+                    <p>+38 (063) 471-10-55</p>
+                </li>
+                <li>
+                    <img class="filter-orange" src="./assets/icons/email.svg" alt="Email Icon" width="30" height="30">
+                    <p>loveykosergey@ukr.net</p>
+                </li>
+                <li>
+                    <img class="filter-orange" src="./assets/icons/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                    <p>@Djin_s</p>
+                </li>
+                <li>
+                    <img class="filter-orange" src="./assets/icons/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+                    <a href="">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+            
+          </section>
+          <section id="skills" class="skills">
+            <h3>SKILLS</h3>
+            <div class="popo">
+              <ul>
+                <li>HTML5, CSS3</li>
+                <li>Bootstrap</li>
+                <li>JavaScript Basics</li>
+                <li>FlexBox</li>
+                <li>VS Code, Sublime text</li>
+                <li>Figma, Avocode</li>
+              </ul>
+            </div>
+          </section>
+          <section id="languages" class="languages">
+            <h3>LANGUAGES</h3>
+            <div class="popo">
+              <ul>
+                <li>
+                    <p class="language-name">ENGLISH</p>
+                    <p>A2</p>
+                </li>
+                <li>
+                    <p class="language-name">RUSSIAN</p>
+                    <p>Native</p>
+                </li>
+                <li>
+                    <p class="language-name">UKRAINIAN</p>
+                    <p>Basic</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <aside class="right-column">
+          <section class="about-myself section">
+            <div class="sub-header">
+                <h3>ABOUT MYSELF</h3>
+            </div>
+            <p> I am 37 years old. At this time I work as an artist of the original genre.
+                In this situation around the world. Because of the epidemic.
+                I faced difficulties in the names of orders in my direction.
+            </p>
+            <p>
+                To this I understand that you need to somehow develop yourself in other areas. The epidemic prompted this.
+                That is why I`m here. My goal is to gain knowledge in the field of front-end development.
+            </p>
+            <p>
+                I believe, that my ability to learn and to gain new skills 
+                will lead me through this path of becoming a proficient Frontend Developer.
+            </p>
+          </section>
+          <section id="education" class="education section">
+              <div class="sub-header">
+                  <h3>EDUCATION</h3>
+              </div>
+              <p>
+                  <strong>
+                      Odessa National Polytechnic University
+                  </strong>
+              </p>
+              <p>Years: 2001 - 2007</p>
+              <p>Faculty of Business Economics</p>
+          </section>
+          <section class="courses section">
+              <div class="sub-header">
+                  <h3>COURSES</h3>
+              </div>
+              <ul>
+                  <li>HTML and CSS on Fructcode.com</li>
+                  <li>Bootstrap on Fructcode.com</li>
+                  <li>JavaScript + React on Udemy</li>
+                  <li>RS School JavaScript/Front-end 2021Q3</li>
+              </ul>
+          </section>
+          <section id="code-example" class="code-example section">
+              <div class="sub-header">
+                  <h3>CODE EXAMPLE</h3>
+              </div>
+              <div class="code-block">
+                  <p>Write a loop that outputs a triangle like this</p>
+                  <div class="code">
+                      <img src="./assets/img/tree.jpg" alt="Task Image">
+                      <pre>
+                          <code>
+                              <br>let tree = '#';
+                              <br>for (let i = 0; i &lt; 7; i++) {<br> console.log(tree);<br> tree += '#';<br>}
+                          </code>
+                      </pre>
+                  </div>
+              </div>
+          </section>
+          <section id="project" class="project section">
+              <div class="sub-header">
+                  <h3>WHAT I DO</h3>
+              </div>
+              <article class="project__item">
+                  <a class="project__link" href="https://sergeyloveyko.github.io/axit-site/" target="_blank">
+                      <img class="project__img" src="./assets/img/axit.jpg" alt="project" width="371" height="200">
+                      <div class="project__content">
+                          <h4>HTML, CSS, JavaScript</h4>
+                          <p>Made with BEM and CSS Flexbox layout</p>
+                      </div>
+                  </a>
+              </article>
+              <article class="project__item">
+                <a class="project__link" href="https://rolling-scopes-school.github.io/sergeyloveyko-JSFE2021Q3/museum-dom/#gallery" target="_blank">
+                    <img class="project__img" src="./assets/img/museum.jpg" alt="project" width="371" height="200">
+                    <div class="project__content">
+                        <h4>HTML, CSS, JavaScript</h4>
+                        <p>Made with BEM and CSS Flexbox layout</p>
+                    </div>
+                </a>
+            </article>
+          </section>
+        </aside>
+      </main>
+      
+      <footer>
+        <a class="my-github" href="https://github.com/SergeyLoveyko" target="_blank">
+            <img class="github-icon filter-gray" src="./assets/icons/github.svg" alt="GitHub Icon" width="26" height="26">
+            <p>Visit my GitHub</p>
+        </a>
+        <p>© 2021</p>
+        <a class="rs-school" href="https://rs.school/js/" target="_blank">
+            <img class="filter-gray" src="./assets/icons/rsschool.svg" alt="rs-school Icon" width="73" height="26">
+        </a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
